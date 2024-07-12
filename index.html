@@ -20,7 +20,7 @@
             const formData = new FormData();
             formData.append('file', fileInput.files[0]);
 
-            const response = await fetch('https://asia-northeast2-amx-broadcast.cloudfunctions.net/processResults', {
+            const response = await fetch('https://asia-northeast3-amx-broadcast.cloudfunctions.net/processResults', {
                 method: 'POST',
                 body: formData
             });
